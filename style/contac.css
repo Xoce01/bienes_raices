@@ -1,0 +1,93 @@
+.foruno {
+    width: 100%;
+    height: 560px;
+    display: block;
+    margin-bottom: 55px;
+}
+
+.formula {
+    width: 42%;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 80px;
+    box-shadow: 0px 0px 25px rgb(70, 69, 69);
+}
+
+.formula .tem {
+    width: 100%;
+    height: auto;
+    background-color: rgb(80, 80, 122);
+}
+
+.tem h5 {
+    font-size: 25px;
+    padding: 20px 20px;
+    color: blanchedalmond;
+}
+
+.temuno {
+    padding: 20px 0 20px 0;
+}
+
+.temuno label {
+    position: relative;
+    left: 42%;
+    color: darkblue;
+}
+
+.temuno input {
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+.temuno .mit {
+    width: 30%;
+    padding: 5px;
+    font-size: 125%;
+    background-color: rgb(84, 66, 114);
+    border-style: none;
+    color: rgb(245, 244, 244);
+    position: relative;
+    top: 45px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+#user,
+#ema {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 931px) {
+    .formula {
+        width: 62%;
+    }
+    .temuno .mit {
+        width: 40%;
+        border-radius: 0px;
+        font-size: 150%;
+    }
+    @media only screen and (max-width: 931px) {
+        .formula {
+            width: 72%;
+        }
+        @media only screen and (max-width: 503px) {}
+        .formula {
+            width: 90%;
+        }
+        @media only screen and (max-width: 343px) {
+            .formula {
+                width: 100%;
+            }
+            .tem h5 {
+                font-size: 20px;
+            }
+        }
+    }
+}
